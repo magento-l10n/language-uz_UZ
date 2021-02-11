@@ -5,7 +5,6 @@ None,Yo'q
 "You need more permissions to access website ""%1"".","""%1"" veb-saytiga kirish uchun ko'proq ruxsatnomalar kerak."
 "Role Scopes","Rollarni o'rni"
 Custom,Boshqa
-"More permissions are needed to save this setting.","Ushbu sozlamani saqlash uchun qo'shimcha ruxsatlar kerak."
 "Read Details","Batafsil ma'lumot"
 "Mark as Read","O'qilgan deb belgilash"
 "Are you sure?","Ishonchingiz komilmi?"
@@ -23,6 +22,7 @@ Notifications,Bildirishnomalar
 "Total of %1 record(s) have been removed.","Jami %1 yozuv(lar) olib tashlandi."
 "We couldn't remove the messages because of an error.","Xatolar tufayli xabarlarni olib tashlab bo'lmadi."
 "The message has been removed.","Xabar o'chirildi."
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Siz so'nggi tizim xabarlarini ko'rib chiqdingiz va hal qildingiz. Iltimos bildirishnomani o'chirish uchun veb-sahifani yangilang."
 "1 Hour","1 Soat"
 "2 Hours","2 Soat"
 "6 Hours","6 Soat"
@@ -56,7 +56,6 @@ Severity,Zo'ravonlik
 "Date Added","Sana qo'shildi"
 Message,Xabar
 Actions,Amallar
-"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Siz so'nggi tizim xabarlarini ko'rib chiqdingiz va hal qildingiz. Iltimos bildirishnomani o'chirish uchun veb-sahifani yangilang."
 "Manage Shopping Cart","Savatchani boshqarish"
 "Create Order","Buyurtma yarating"
 Back,Orqaga
@@ -206,23 +205,14 @@ Yes,Ha
 "Error while checking if topic is synchronous","Mavzu sinxronlashtirilganligini tekshirishda xato"
 "Subscription status","Obuna holati"
 "Sorry, there has been an error processing your request. Please try again later.","Kechirasiz, so'rovingizni bajarishda xatolik yuz berdi. Keyinroq qayta urinib ko'ring."
-"Time value has an unsupported format","Vaqt qiymati qo'llab-quvvatlanmaydigan formatga ega"
 "Cron settings can't be saved","Cron sozlamalarini saqlab bo'lmaydi"
 "There was an error save new configuration value.","Yangi konfiguratsiya qiymatini saqlab bo'lmadi."
-"Please select a vertical.","Iltimos, vertikalni tanlang."
 "--Please Select--","--Iltimos tanlang--"
-"Command was not found.","Buyruq topilmadi."
-"Input data must be string or convertible into string.","Kiritilgan ma'lumotlar magistral yoki registrda o'zgartirilishi kerak."
-"Input data must be non-empty string.","Kirish ma'lumotlari bo'sh bo'lmasligi kerak."
-"Not valid cipher method.","Parol noto'g'ri."
-"Encryption key can't be empty.","Parol kiritilishi shart."
-"Source ""%1"" is not exist","Manba ""%1"" mavjud emas"
 "These arguments can't be empty ""%1""","Ushbu dalillar ""%1"" bo'sh bo'lishi mumkin emas"
 "Cannot find predefined integration user!","Oldindan belgilangan integratsiya foydalanuvchi topa olmaydi!"
 "File is not ready yet.","Fayl hali tayyor emas."
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Sizning taglavhangiz o'zgartirildi va sizning hisobotingiz yangilandi. Ushbu o'zgarish qayta ishlanganidan so'ng Kengaytirilgan hisobotlar mavjud bo'ladi. Iltimos keyinroq qayta urinib ko'ring."
 "Failed to synchronize data to the Magento Business Intelligence service. ","Ma'lumotni Magento Business Intelligence xizmati bilan sinxronlashtirish mumkin bo'lmadi. "
-"<a href=""%1"">Retry Synchronization</a>","<a href=""%1"">Qayta sinxronlashni sinab ko'ring</a>"
 TestMessage,"Sinov xabari"
 "Apps and Games","Ilovalar va o'yinlar"
 "Athletic/Sporting Goods","Sport tovarlari"
@@ -234,23 +224,11 @@ Analytics,Tahlillar
 Configuration,Konfiguratsiya
 "Business Intelligence","Biznes tahlili"
 "BI Essentials","BI asoslari"
-"This service provides a dynamic suite of reports with rich insights about your business.
-                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
-                ""Go to Advanced Reporting"" link. </br> For more information, see our <a href=""https://magento.com/legal/terms/cloud-terms"">
-                terms and conditions</a>.","Ushbu xizmat biznesingiz haqidagi boy ma'lumotlarga ega bo'lgan dinamik to'plamlarni taqdim etadi.
-				Hisobotlarni administrator panelidan tashqarida shaxsiylashtirilgan asboblar panelida ishonchli tarzda bosishingiz mumkin
-				Kengaytirilgan hisobotlar havolasiga o'ting. </br> Qo'shimcha ma'lumot olish uchun, <a href=""https://magento.com/legal/terms/cloud-terms"">
-				talab va takliflar </a>."
 "Advanced Reporting Service","Kengaytirilgan Yozuvlar Xizmati"
 "Time of day to send data","Ma'lumot yuborish vaqti"
 Industry,Sanoat
 "In order to personalize your Advanced Reporting experience, please select your industry.","Tajribangizni rivojlangan hisobot bilan shaxsiylashtirish uchun sizning sanoatni tanlang."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Magento Business Intelligence haqida ko'proq bilish</strong>"
-"Magento Business Intelligence provides you with a simple and clear path to
-                    becoming more data driven.</br> Learn more about <a target=""_blank""
-                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento Business Intelligence sizga ma'lumotlarning miqdorini oshirishning 
-					oddiy va tushunarli usulini beradi </br> Batafsil ma'lumot <a target=""_blank""
-                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers."
 "Auto Parts","Avtomatik ehtiyot qismlar"
 "Baby/Children’s Apparel, Gear and Toys","Bolalar kiyimlari, bolalar kiyimlari va o'yinchoqlar"
 "Beauty and Cosmetics","Go'zallik va kosmetika"
@@ -269,7 +247,6 @@ Industry,Sanoat
 "Pet Goods","Uy hayvonlari"
 "Pharma and Medical Devices","Dori va tibbiy asboblar"
 "Technology B2B","Texnologiya B2B"
-Other,Boshqa
 Done,Bajarildi
 Retry,"Qayta urinib ko'ring"
 "'Action Details - #' .","'Aksiyaning tafsilotlari - #'."
@@ -555,17 +532,16 @@ System,Tizim
 "An inactive store view cannot be saved as default store view","Faol bo'lmagan do'kon ko'rinishi odatiy do'kon ko'rinishi sifatida saqlana olmaydi"
 "You saved the store.","Siz do'konni saqladingiz."
 "Something went wrong while saving. Please review the error log.","Saqlashda xatolik yuz berdi. Iltimos, xato jurnalini ko'rib chiqing."
+"Authentication storage is incorrect.","Do'konni tekshirish noto'g'ri."
 "Last 24 Hours","Oxirgi 24 soat"
 "Last 7 Days","Oxirgi 7 kun"
 "Current Month","Joriy oy"
-"Authentication storage is incorrect.","Do'konni tekshirish noto'g'ri."
 Order,Buyurtma
 "Order #%1","Buyurtma #%1"
 "Sorry, you need permissions to view this content.","Kechirasiz, siz ushbu kontentni ko'rish uchun ruxsat olishingiz kerak."
 "Next steps","Keyingi qadamlar"
 "If you think this is an error, try signing out and signing in again.","Agar buni xato deb hisoblasangiz, chiqing va qayta ro'yxatdan o'tishga harakat qiling."
 "Contact a system administrator or store owner to gain permissions.","Ruxsatlar olish uchun tizim ma'muri yoki do'kon egasiga murojaat qiling."
-"Return to "," ga qaytish"
 "previous page","oldingi sahifa"
 "Welcome, please sign in","Xush kelibsiz, iltimos, tizimga kiring"
 Username,"Foydalanuvchi nomi"
@@ -573,9 +549,9 @@ Username,"Foydalanuvchi nomi"
 Password,Parol
 password,parol
 "Sign in","Tizimga kirish"
-"Select Range:","Qator oralig'ini tanlang:"
 "No Data Found","Ma'lumot topilmadi"
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Grafik o'chirilgan. Grafikni yoqish uchun <a href=""%1""> bu yerda </a> bosing."
+"Select Range:","Qator oralig'ini tanlang:"
 "Last Orders","Oxirgi Buyurtma"
 "Last Search Terms","So'nggi izlanishlar"
 "There are no search keywords.","Hech qanday qidirish kalit so'zlari yo'q."
@@ -599,7 +575,6 @@ Minute,Daqiqa
 "To use this website you must first enable JavaScript in your browser.","Ushbu veb-saytni ishlatish uchun brauzeringizda avval JavaScript-ni yoqishingiz kerak."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Bu demo do'koni. Ushbu saytda joylashtirilgan har qanday buyurtma ishlov berilmaydi yoki bajarilmaydi."
 "Report an Issue","Muammo haqida xabar bering"
-"Store View:","Do'konning ko'rinishi:"
 "Stores Configuration","Do'konlarni sozlash"
 "Additional Cache Management","Qo'shimcha keshlarni boshqarish"
 "Flush Catalog Images Cache","Rasm keshini tozalash"
@@ -630,6 +605,7 @@ selected,tanlangan
 "This tab contains invalid data. Please resolve this before saving.","Ushbu ichki oynada noto'g'ri ma'lumotlar mavjud. Saqlamasdan oldin buni hal qiling."
 "The information in this tab has been changed.","Ushbu ichki oynadagi ma'lumot o'zgardi."
 Loading...,Yuklanmoqda...
+"User Agent Rules","User Agent qoidalari"
 "We could not detect a size.","Biz hajmni aniqlay olmadik."
 "Allow everything","Hammasiga ruxsat berish"
 "Magento Admin","Magento administratori"
@@ -647,13 +623,6 @@ Attributes,Xususiyatlar
 "Connect Manager","Ulanish menejeri"
 "Package Extensions","Paket kengaytmalari"
 Tools,Asboblar
-"Clean Cache Actions","Keshni tozalash"
-"Cache Types Management","Kesh turlarini boshqarish"
-"Toggle Cache Type","Kesh turini almashtirish"
-"Refresh Cache Type","Kesh turini yangilash"
-"Catalog Images Cache","Katalog rasmlari keshi"
-"Flush Js/Css","Js/Css-ni tozalash"
-"Flush Static Files","Statik fayllarni o'chirish"
 Currency,Valyuta
 Communications,Aloqa
 Services,Xizmatlar
@@ -668,11 +637,8 @@ Advanced,Murakkab
 "Sales Representative","Savdo bo'yicha menejer"
 "Customer Support","Mijozlarni qo'llab-quvvatlash"
 Developer,Dasturchi
-"Enabled Template Path Hints for Storefront","Do'kon uchun yo'l takliflari shablonini yoqish"
-"Enabled Template Path Hints for Admin","Administrator uchun yo'l takliflari shablonini yoqish"
 "Template Settings","Template sozlamalari"
 "Allow Symlinks","URL larga ruxsat berish"
-"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Ogohlantirish! Ushbu xususiyatni yoqish ishlab chiqarish muhitida tavsiya etilmaydi, chunki u potentsial xavfsizlik tavsifini ifodalaydi."
 "Minify Html","HTMLni kichiklashtirish"
 "Minification is not applied in developer mode.","Minifikatsiya dasturi ishlab chiquvchi rejimida qo'llanilmaydi."
 "Translate Inline","Inline tarjima qiling"
@@ -739,7 +705,6 @@ Security,Xavfsizlik
 "Enable Charts","Grafiklarni yoqish"
 "Url Options","Url parametrlari"
 "Add Store Code to Urls","Do'kon kodini URLlarga qo'shish"
-"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Ogohlantirish!</strong> Agar do'kon kodini URL manzillaridan foydalansangiz, ayrim hollarda tizimlar uchinchi tomon xizmatlarida (masalan, PayPal, Payme va hokazo) saqlash kodlari bo'lmagan URLlar bo'lsa, tizim to'g'ri ishlamasligi mumkin."
 "Auto-redirect to Base URL","Asosiy URL-ga avtomatik yo'naltirish"
 "Search Engine Optimization","Qidiruv mexanizmi optimallashtirish"
 "Use Web Server Rewrites","Veb-serverni qayta tiklashni ishlatish"
@@ -767,16 +732,14 @@ Security,Xavfsizlik
 "Validate HTTP_VIA","HTTP_VIA ni tekshirib ko'ring"
 "Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR ni tekshirib ko'ring"
 "Validate HTTP_USER_AGENT","HTTP_USER_AGENTni tekshirib ko'ring"
-"Use SID on Storefront","Frontendda SID dan foydalanish"
-"Allows customers to stay logged in when switching between different stores.","Turli do'konlarni almashtirishda mijozlarga tizimda qolish imkonini beradi."
 "Cache Type","Kesh turi"
 Description,Ta'rif
 Tags,Teglar
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Xato</h1><p>Sahifa topilmadi.</p>"
 "Default Theme","Standart Template"
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Hech qanday qiymat ko'rsatilmagan bo'lsa, tizimning standart qiymati ishlatiladi. Tizimdagi sukut uchinchi tomon kengaytmalari tomonidan o'zgartirilishi mumkin."
 "Applied Theme","Amaliy Template"
 "Design Rule","Dizayn qoidalari"
-"User Agent Rules","User Agent qoidalari"
 "How many links to display at once.","Bir vaqtning o'zida bir nechta URL lar ko'rsatiladi."
 "If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Agar hozirgi kvadrat pozitsiyasi barcha sahifalarga to'g'ri kelmasa, u joriy manzilga URL ko'rsatadi: ortiqcha / minus bu qiymat."
 "Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Avvalgi sahifalar uchun muqobil matnlar reyting sahifasida havola qiladi. Bo'sh bo'lsa, standart ko'rsatgich ishlatiladi."
@@ -784,8 +747,6 @@ Tags,Teglar
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Pagination menyusida keyingi sahifalar uchun muqobil matn. Agar bo'sh bo'lsa, standart ko'rsatgichdan foydalaniladi."
 "Anchor Text for Next","Keyingi uchun matn joylashtiring"
 "Theme Name","Template nomi"
-"Page not found.","Sahifa topilmadi."
-"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Hech qanday qiymat ko'rsatilmagan bo'lsa, tizimning standart qiymati ishlatiladi. Tizimdagi sukut uchinchi tomon kengaytmalari tomonidan o'zgartirilishi mumkin."
 "System Backup","Tizimni zaxiralash"
 "Database and Media Backup","Ma'lumotlar bazasi va media zaxiralash"
 "Database Backup","Ma'lumotlar bazasini zahiralash"
@@ -840,9 +801,7 @@ Exclude,Istisno
 "Magento root directory","Magentoning asosiy katalogi"
 "Create Backup","Zahira nusxasini yarating"
 Rollback,"Orqaga qaytish"
-"Scheduled Backup Settings","Jadvaldagi arxivlash parametrlari"
 "Enable Scheduled Backup","Jadvaldagi zaxirani yoqish"
-"Backup Type","Zaxira turi"
 Frequency,Muntazamlik
 "Maintenance Mode","Xizmat rejimi"
 "Are you sure you want to delete the selected backup(s)?","Siz tanlagan zahira(lar) ni o'chirmoqchimisiz?"
@@ -862,25 +821,21 @@ Active,Faol
 Inactive,"Faol emas"
 "Applies To",Qo'llaniladi
 "Specify Types","Turlarni belgilang"
-Visibility,Ko'rinishi
 Position,Obyekt
 "This rule no longer exists.","Bu qoida mavjud emas."
 "You deleted %1 record(s).","Siz %1 yozuv(lar) ni o'chirdingiz."
 "Please enter a name.","Iltimos, ismni kiriting."
-"Please specify default content for at least one store view.","Iltimos, kamida bitta do'kon ko'rinishi uchun standart kontentni ko'rsating."
 "-- None --","-- Yo'q --"
 "Content Area","Kontent maydoni"
 Footer,"Pastki qism"
 "Left Column","Chap ustun"
 "Right Column","O'ng ustun"
-"Shopping Cart Promotions Related","Xarid qilish vositasi bilan bog'liq aktsiyalar"
-"Catalog Promotions Related","Katalokga bog'liq aksiyalar"
 "Rotation Mode","Qaytish tartibi"
 "Display all instead of rotating","Aylanadigan o'rniga barchasini ko'rsatish"
 "One at the time, Random","Ulardan biri, tasodifiy"
 "One at the time, Series","Ulardan biri, Seriya"
 "One at the time, Shuffle","Ulardan biri, Shuffle"
-"Use Default Value","Standart qiymatdan foydalaning"
+Visibility,Ko'rinishi
 "All Segments","Barcha segmentlar"
 "Customer Segment","Xaridor segmenti"
 "Allowed Credit Card Types","Ruxsat berilgan kredit kartalari turlari"
@@ -1021,11 +976,11 @@ Fixed,"Ruxsat etilgan"
 "Add Products to Option","Variantlarga mahsulot qo'shish"
 "Delete Option","Variantni o'chirish"
 "What are you looking for?","Siz nimani izlayapsiz?"
+"Use Default Value","Standart qiymatdan foydalaning"
 "There is no defined renderer for ""%1"" option type.","""%1"" variant turi uchun maxsus hisobot berish usuli yo'q."
 "Could not save child: ""%1""","Mahsulot saqlanmadi: ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Ko'rsatilgan skuga ega mahsulot: ""%1"" parametri mavjud emas: ""%2"""
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Ko'rsatilgan skuga ega bo'lgan avlod: ""%1"" mahsulotiga allaqachon tayinlangan: ""%2"""
-"%fieldName is a required field.","%fieldName kerakli maydon."
 "Price Range","Narxlar oralig'i"
 "As Low as","Juda kam"
 Together,Birgalikda
@@ -1061,8 +1016,8 @@ Invoiced,Xarajatlar
 Shipped,Yuborildi
 Refunded,Qaytarildi
 Canceled,"Bekor qilindi"
-"As low as","Juda kam"
 "Regular Price","Muntazam narx"
+"As low as","Juda kam"
 "Buy %1 with %2 discount each","%1 ni %2 chegirma bilan sotib oling"
 "Go back to product details","Mahsulot ma'lumotlariga qaytish"
 "Customize and Add to Cart","Moslashtiring va savatga qo'shing"
@@ -1112,20 +1067,13 @@ Forms,Shakllar
 "Make sure the To Date is later than or the same as the From Date.","Kiritish sanasi Sana yoki undan keyingi vaqtga to'g'ri kelishiga ishonch hosil qiling."
 "Please enter a number 0 or greater in this field.","Iltimos, ushbu sohada 0 yoki undan katta sonni kiriting."
 "Please enter a valid number in this field.","Iltimos, ushbu sohada haqiqiy raqamni kiriting."
-"The image could not be resized: ","Rasm hajmi o'zgartirib bo'lmadi: "
-"Some images could not be resized. See log file for details.","Ba'zi tasvirlarni o'zgartirib bo'lmaydi. Qo'shimcha ma'lumot olish uchun, jurnal faylini ko'ring."
-"Some text is here.","Некоторые тексты здесь."
-"Alert stock",Bildirishnoma
-"Alert Stock",Bildirishnoma
-"Alert price",Bildirishnoma
-"Alert Price",Bildirishnoma
 "The field isn't complete.","Maydon bo'sh."
 "Shop By","Onlayn do'kon"
 "Shopping Options","Xarid qilish imkoniyatlari"
 "Remove This Item","Ushbu narsani o'chirish"
 "Clear All","Hammasini tozalash"
 "Please note that these settings apply to individual items in the cart, not to the entire cart.","Ushbu sozlamalar xarid qilish savatchasidagi har bir narsaga emas. Ayrim narsalarga qo'llaniladi."
-"<strong style=""color:red"">Warning!</strong> By default this feature restricts all categories.","<strong style=""color:red"">Ogohlantirish!</strong> Odatiy bo'lib, bu funktsiya barcha toifalarni cheklaydi."
+"Store View:","Do'konning ko'rinishi:"
 "Invalid method: %1","Noto'g'ri usul: %1"
 "My Cart (1 item)","Mening savatcham (1 dona)"
 "My Cart (%1 items)","Mening savatcham (%1 ta)"
@@ -1142,6 +1090,7 @@ Forms,Shakllar
 "One-page checkout is turned off.","Bitta sahifali to'lov yopiq."
 "Guest checkout is disabled.","Mehmon uchun to'lov bekor qilindi."
 Checkout,"Tekshirib ko'rmoq"
+"Page not found.","Sahifa topilmadi."
 "Something went wrong while processing your order. Please try again later.","Buyurtmani ko'rib chiqishda xatolik yuz berdi. Iltimos keyinroq qayta urinib ko'ring."
 "Payment Method","To'lov uslubi"
 "Payment Page","To'lov sahifasi"
@@ -1156,7 +1105,6 @@ Checkout,"Tekshirib ko'rmoq"
 "Cron configuration options for group:","Cron guruhining konfiguratsiya imkoniyatlari:"
 "Address Book","Manzillar kitobi"
 "Please make sure your passwords match.","Iltimos parollaringiz bilan mos kelishiga ishonch hosil qiling."
-"Invalid value of ""%value"" provided for the %fieldName field. Possible values: %template1 or %template2.","""%value"" qiymati  %fieldName maydoni uchun to'g'ri kelmaydi. Quydagilar mos keladi: %template1 yoki %template2."
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Paroldagi eng kam belgilar soni - %1. Belgilar sinflari: kichik harflar, katta harflar, raqamlar, maxsus belgilar."
 "Manage Addresses","Manzillarni boshqarish"
 "Welcome to %store_name","%store_name ga xush kelibsiz"
@@ -1168,18 +1116,8 @@ Password:,Parol:
 "Proceed through checkout faster","Tezlashtirilgan tekshirishni amalga oshirish"
 "Check the status of orders","Buyurtma holatini tekshiring"
 "View past orders","Avvalgi buyurtmalarni ko'rish"
-"This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
-                        Email template chosen based on theme fallback when ""Default"" option is selected.","Agar mijoz profili parolsiz tuzilgan bo'lsa, bu xabari Standart ""Xush kelibsiz"" Email manziliga yuboriladi. <br /><br />
-                       Email shabloni, ""Standart"" variantini tanlaganida, mavjud mavzuni qaytarib olish asosida tanlangan."
-"This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
-                        Email template chosen based on theme fallback when ""Default"" option is selected.","Profil tasdiqlanganidan so'ng, bu elektron pochta xabarlari standart qabul qilinadigan elektron pochta o'rniga yuboriladi. <br /><br />
-                        Mavzuni zaxiralash asosida tanlangan e-pochta shabloni, ""Standart"" variantini tanlanganda."
-"Account Dashboard","Boshqaruv paneli"
-"Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.","Ajraladigan qiymatlar vergul bilan (;). <br/> Bo'sh birinchi variantni boshida nuqta-vergul qoldiring.<br /> Ochiq matn qatori uchun bo'sh qoldiring."
 "Order Status","Buyurtma holati"
-"Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","Asosiy valyuta barcha onlayn to'lov operatsiyalarida ishlatiladi. Asosiy valyuta miqdori katalogning narx oralig'i bilan belgilanadi (""Katalog""> ""Narxlar""> ""Katalog narxlari skalasi"")."
 "Please enter a valid email address.","Iltimos amaldagi email manzilingizni kiriting."
-"Send Order Currency","Buyurtma valyutasini yuboring"
 "Please specify the quantity of product(s).","Iltimos, mahsulot (lar) ning miqdorini ko'rsating."
 "Payment method is not defined for instance purchase.","Sotib olishda to'lov usuli tanlanmagan."
 "Shipping address is not defined for instance purchase.","Sotib olishda yetkazib berish manzili kiritilmagan."
@@ -1196,186 +1134,14 @@ Password:,Parol:
 "Shipping Method","Yetkazib berish turi"
 "Button Text","Matn tugmasi"
 "Now Shopping by","Hoziroq xarid qilish"
-"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.","Jami kontentning soniyasiga keshlash muddati. Agar maydon bo'sh bo'lsa, standart qiymat 86400 ga saqlanadi."
 "Please enter a valid credit card verification number.","Iltimos joriy kredit karta tasdiqlash raqamini kiriting."
 "Please enter a valid credit card number.","Iltimos, kredit karta raqamini to'g'ri kiriting."
-"<a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>","<a href=""http://www.magentocommerce.com/paypal"">PayPal orqali to'lovlarni qabul qilish!</a>"
-"See PayPal Feature Support details and list of supported regions
-                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">here</a>.","PayPal funksiyalarini qo'llab-quvvatlanadigan hududlar ro'yxati haqida qo'shimcha ma'lumot olish uchun
-                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">shu yerni </a>bosing."
-"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
-                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
-                        <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>","PayPal Express Checkout mijozlarga PayPal Credit&#174; orqali moliyalash imkoniyatini taqdim etish imkonini beradi - qo'shimcha xarajatlarsiz.
-						Xaridorlar ko'proq pul to'lashlari kerak bo'lsa-da, oldindan to'lanasiz. Oldindan o'rnatilgan to'lovlar tugmasi mijozlarga PayPal Credit&#174;ini tezda to'lash imkonini beradi.
-						<a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Batafsil</a>"
-"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                        <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                        from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                        Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                        The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Nima uchun moliyani reklama qilish kerak?</a><br/>
-						<strong>Moliyani reklama qilganingizda savdo-sotiqni kuchaytiring.</strong><br/>PayPal Credit&#174; moliyaviy ko'magi bilan brauzerlarni 
-						xaridorlarga aylantirishga yordam beradi. Sizning mijozlaringiz oldindan to'layotgan vaqtda - qo'shimcha xarajatlarsiz to'lovlarni amalga oshirish
-						uchun ko'proq vaqt bor. Xaridorlar PayPal tekshirilganda PayPal Credit&#174;ni moliyalashtirishni to'lov opsiyasi sifatida reklama qilish imkonini
-						beruvchi bepul PayPal reklama bannerlaridan foydalaning. PayPal reklama dasturining qo'shimcha xaridlarni amalga oshirishi, shuningdek, o'rtacha 
-						xaridlarni 15 foizga yoki undan ko'pqa oshirilishini ko'rsatdi. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Tafsilotlarga qarang</a>."
-"Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.","Do'kon ma'muriati billing bo'yicha kelishuvni amalga oshirish uchun PayPal bilan bog'lanishlari kerak. PayPal sizning profilingiz uchun billing shartnomalari kiritilganligini tasdiqlamaguniga qadar ushbu parametrni yoqmang."
-"Will appear as a payment option only for customers who have at least one active billing agreement.","Faqat kamida bitta faol billing shartnomasiga ega bo'lgan mijozlar uchun to'lov opsiyasi sifatida paydo bo'ladi."
-"Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).","Faqat kamida bitta faol billing shartnomasiga ega bo'lgan mijozlar uchun to'lov opsiyasi amalga oshiriladi."
-"The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.","Tasdiqlash sahifasining yuqori chap burchagidagi rasm. Maksimal hajmi - 750x90 piksel. <strong style=""color:red"">https</strong> tavsiya etiladi."
-"The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.","Tasdiqlash sahifasining sarlavhasi uchun fon rangi. ASCII-da o'n oltita belgining HTML kodi."
-"The background color for the checkout page around the header and payment form.","Tekshiruv sahifasining bosh sarlavhasi va to'lov shakli uchun fon rangi."
-"<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                                            or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Nima uchun moliyani reklama qilish kerak?</a><br/>
-						<strong>Moliyani reklama qilganingizda savdo-sotiqni kuchaytiring.</strong><br/>PayPal Credit&#174; moliyaviy ko'magi bilan brauzerlarni 
-						xaridorlarga aylantirishga yordam beradi. Sizning mijozlaringiz oldindan to'layotgan vaqtda - qo'shimcha xarajatlarsiz to'lovlarni amalga oshirish
-						uchun ko'proq vaqt bor. Xaridorlar PayPal tekshirilganda PayPal Credit&#174;ni moliyalashtirishni to'lov opsiyasi sifatida reklama qilish imkonini
-						beruvchi bepul PayPal reklama bannerlaridan foydalaning. PayPal reklama dasturining qo'shimcha xaridlarni amalga oshirishi, shuningdek, o'rtacha 
-						xaridlarni 15 foizga yoki undan ko'pqa oshirilishini ko'rsatdi. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Tafsilotlarga qarang</a>."
-"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                            or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Nima uchun moliyani reklama qilish kerak?</a><br/>
-						<strong>Moliyani reklama qilganingizda savdo-sotiqni kuchaytiring.</strong><br/>PayPal Credit&#174; moliyaviy ko'magi bilan brauzerlarni 
-						xaridorlarga aylantirishga yordam beradi. Sizning mijozlaringiz oldindan to'layotgan vaqtda - qo'shimcha xarajatlarsiz to'lovlarni amalga oshirish
-						uchun ko'proq vaqt bor. Xaridorlar PayPal tekshirilganda PayPal Credit&#174;ni moliyalashtirishni to'lov opsiyasi sifatida reklama qilish imkonini
-						beruvchi bepul PayPal reklama bannerlaridan foydalaning. PayPal reklama dasturining qo'shimcha xaridlarni amalga oshirishi, shuningdek, o'rtacha 
-						xaridlarni 15 foizga yoki undan ko'pqa oshirilishini ko'rsatdi. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Tafsilotlarga qarang</a>."
-"Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.","American Express kartalarini qo'llab-quvvatlash uchun qo'shimcha ruxsat shart. Ko'proq bilib oling <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>."
-"<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                                Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Nima uchun moliyani reklama qilish kerak?</a><br/>
-						<strong>Moliyani reklama qilganingizda savdo-sotiqni kuchaytiring.</strong><br/>PayPal Credit&#174; moliyaviy ko'magi bilan brauzerlarni 
-						xaridorlarga aylantirishga yordam beradi. Sizning mijozlaringiz oldindan to'layotgan vaqtda - qo'shimcha xarajatlarsiz to'lovlarni amalga oshirish
-						uchun ko'proq vaqt bor. Xaridorlar PayPal tekshirilganda PayPal Credit&#174;ni moliyalashtirishni to'lov opsiyasi sifatida reklama qilish imkonini
-						beruvchi bepul PayPal reklama bannerlaridan foydalaning. PayPal reklama dasturining qo'shimcha xaridlarni amalga oshirishi, shuningdek, o'rtacha 
-						xaridlarni 15 foizga yoki undan ko'pqa oshirilishini ko'rsatdi. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Tafsilotlarga qarang</a>."
-"Defines the default product price","Mahsulotning narxini standart bo'yicha belgilaydi"
-"What's new with Magento 2.2.2","Magento 2.2.2 da nima yangiliklar"
-"
-                        <p>Magento 2.2.2 offers advanced new features, including:</p>
-                        <br />
-                        <div class=""analytics-highlight"">
-                        <h3>Advanced Reporting</h3>
-                        <p>Gain valuable insights through a dynamic suite of product, order, and customer reports,
-                        powered by Magento Business Intelligence.</p>
-                        </div>
-                        <div class=""instant-purchase-highlight"">
-                        <h3>Instant Purchase</h3>
-                        <p>Simplify ordering and boost conversion rates by allowing your customers to use stored
-                        payment and shipping information to skip tedious checkout steps.</p>
-                        </div>
-                        <div class=""email-marketing-highlight"">
-                        <h3>Email Marketing Automation</h3>
-                        <p>Send smarter, faster email campaigns with marketing automation from dotmailer, powered by
-                        your Magento store's live data.</p>
-                        </div>
-                        <p>Release notes and additional details can be found at
-                        <a href=""http://devdocs.magento.com/"" target=""_blank"">Magento DevDocs</a>.
-                        </p>
-                        ","
-<p>Magento 2.2.2 quyidagilarni o'z ichiga olgan rivojlangan xususiyatlarni taklif etadi:</p>
-                        <br />
-                        <div class=""analytics-highlight"">
-                        <h3>Kengaytirilgan hisobot</h3>
-                        <p>Magento Business Intelligence uchun ishlaydigan mijozlarning dinamik to'plami,
-						buyurtma va hisobotlari orqali qimmatli ma'lumotni oling.</p>
-                        </div>
-                        <div class=""instant-purchase-highlight"">
-                        <h3>Tezkor xarid</h3>
-                        <p>Tartibni soddalashtiring va mijozlaringizning saqlangan to'lov va etkazib berish ma'lumotlarini 
-						zerikarli tasdiqlash bosqichlarini o'tkazib yuborishga imkon beruvchi ishlash tezligini oshiring.</p>
-                        </div>
-                        <div class=""email-marketing-highlight"">
-                        <h3>Automatik Email Marketing</h3>
-                        <p>Live Magento ma'lumotlariga asoslanib, dotmarkerning marketing avtomatizatsiyasini ishlatib,
-						aqlli, tezkor elektron pochta kampaniyalari yuboring.</p>
-                        </div>
-                        <p>Qiziqarli va qo'shimcha ma'lumotlarni 
-                        <a href=""http://devdocs.magento.com/"" target=""_blank"">Magento DevDocs</a> da topishingiz mumkin.
-                        </p>                        "
-"<p>Advanced Reporting
-                        provides you with a dynamic suite of reports with rich insights about the health of your
-                        business.</p><br /><p>As part of the Advanced Reporting service, we may also use your customer
-                        data for such purposes as benchmarking, improving our products and services, and providing you
-                        with new and improved analytics.</p><br /><p>By using Magento 2.2.2, you agree to the Advanced
-                        Reporting <a href=""https://magento.com/legal/terms/privacy"" target=""_blank"">Privacy Policy</a>
-                        and <a href=""https://magento.com/legal/terms/cloud-terms"" target=""_blank"">Terms
-                        of Service</a>. You may opt out at any time from the Stores Configuration page.</p>
-                        ","<p>Kengaytirilgan hisobot 
-						sizning biznesingiz holati haqidagi boy ma'lumotlarga ega bo'lgan dinamik to'plamlar bilan ta'minlaydi.
-						</p><br /><p>Rivojlantirilgan hisobot berish xizmatining bir qismi sifatida biz mijozlar ma'lumotlarini taqqoslash, mahsulot va xizmatlarni takomillashtirish va yangi va takomillashtirilgan tahlillar bilan ta'minlash maqsadida ishlatishimiz mumkin.</p><br /><p>Magento 2.2.2 dan foydalanishingiz siz <a href=""https://magento.com/legal/terms/privacy"" target=""_blank"">Maxfiylik siyosati </a>va <a href=""https://magento.com/legal/terms/cloud-terms"" target=""_blank"">Xizmat ko'rsatish shartlari</a>ga rozilik bildirasiz. Siz do'kon konfiguratsiyasi sahifasida istalgan vaqtda o'chirib qo'yishingiz mumkin.</p>                        "
-"
-                        <p>Now you can deliver an Amazon-like experience with a new, streamlined checkout option.
-                        Logged-in customers can use previously-stored payment credentials and shipping information
-                        to skip steps, making the process faster and easier, especially for mobile shoppers. Key
-                        features include:
-                        </p>
-                        <ul>
-                        <li><span>Configurable “Instant Purchase” button to place orders.</span></li>
-                        <li><span>Support for all payment solutions using Braintree Vault, including Braintree Credit
-                        Card, Braintree PayPal, and PayPal Payflow Pro.</span></li>
-                        <li><span>Shipping to the customer’s default address using the lowest cost, available shipping
-                        method.</span></li>
-                        <li><span>Ability for developers to customize the Instant Purchase business logic to meet
-                        merchant needs.</span></li>
-                        </ul>
-                        ","
-<p>Endi sinovni yangi optimallashtirilgan versiyasi bilan Amazonga o'xshash tajribani taqdim eta olasiz. 
-						Ro'yxatdan o'tgan iste'molchilar, oldindan saqlangan hisobga olish ma'lumotlarini va etkazib berish 
-						ma'lumotlarini qadamlarni atlayarak foydalanishlari mumkin, bu jarayon tezkor va qulay mobil mijozlar uchun.
-						Asosiy xususiyatlar:
-						</p>
-                        <ul>
-                        <li><span>""Tezkor sotib olish"" tugmasini buyurtmlarni joylashtirish bo'limida sozlash mumkin.</span></li>
-						<li><span>Braintree xotirasi, Braintry kredit kartasi, Braintry PayPal va PayPal Payflow Pro kabi barcha to'lovlarni
-						qo'llab-quvvatlash.</span></li>
-						<li><span>Eng kam narxdan foydalanib, mijozning manziliga yetkazib berish, mavjud yetkazib berish usuli.</span></li>
-						<li><span>Ishlab chiquvchilar sotuvchining ehtiyojlarini qondirish uchun Instant Purchase biznes mantig'ini sozlash qobiliyati.</span></li>                        "
-"Email Marketing Automation","Avtomatlashgan Email Marketing"
-"
-                        <p>Unlock an unparalleled level of insight and control of your eCommerce marketing with
-                        dotmailer Email Marketing Automation. Included with Magento 2.2.2 for easy set-up, dotmailer
-                        ensures every customer’s journey is captured, segmented, and personalized, enabling you to
-                        deliver customer-centric campaigns that beat your results over and over again. Benefits include:
-                        </p>
-                        <ul>
-                        <li><span>No obligation 14-day trial.</span></li>
-                        <li><span>Automation campaigns using your live Magento store data that drive revenue,
-                        including abandoned cart, abandoned browse, product replenishment, and many more.</span></li>
-                        <li><span>Built-in solution for transactional emails.</span></li>
-                        <li><span>Telephone support and advice from marketing experts included.</span></li>
-                        </ul>
-                        ","
-<p>Dotmailer elektron pochta avtomatizatsiyasini ishlatib, e-tijorat marketingingizdagi 
-						misli ko'rilmagan darajadagi yutuqlarga erishing. Magento 2.2.2 versiyasini buni osonlashtiradi,
-						dotmailer har bir mijozning safalarini segmentirovkasi va moslashtirilishini 
-						kafolatlaydi, natijalaringizni qayta-qayta takrorlanadigan mijozlarga qaratilgan kampaniyalarni
-						o'tkazishga imkon beradi. Afzalliklar quyidagilardan iborat:
-                        </p>
-                        <ul>
-                        <li><span>14 kunlik sinov talab qilinmaydi.</span></li>
-                        <li><span>Magento real vaqtda foydalanadigan ma'lumotlarni avtomatik ravishda boshqarishni 
-						amalga oshiradi, orttirilgan daromad va savatchadagi mahsulotni belgilash va undan voz kechish.</span></li>
-                        <li><span>Tranzaksiyani Emaillar orqali tasdiqlash.</span></li>
-                        <li><span>Marketing mutaxassislari tomonidan qo'llab-quvvatlash va telefon orqali maslahatlashuvlar mavjudligi.</span></li>
-                        </ul>                        "
 "Order History","Buyurtma tarixi"
 "Credit memo for your %store_name order","Buyurtmaning %store_name uchun kredit eslatmasi"
 "Thank you for your order from %store_name.","Buyurtma uchun rahmat hurmat bilan %store_name."
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Siz <a href=""%account_url"">Foydalanuvchi paneli</a>ga kirib, buyurtmangizning holatini tekshirishingiz mumkin."
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Kredit eslatmasi #%creditmemo_id Buyurtma uchun #%order_id"
 "Billing Info","To'lov ma'lumoti"
-"Shipping Info","Yetkazish haqida ma'lumot"
 "Update to your %store_name credit memo","%store_name kredit eslatmasini yangilang"
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Buyurtmaning #%increment_id holati <strong>%order_status</strong> bilan yangilandi."
 "Invoice for your %store_name order","%store_name buyurtmangiz uchun hisob"
@@ -1437,7 +1203,6 @@ Account,"Boshqaruv paneli"
 "Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","Iltimos, tegishli CSS uzunligini kiriting (Misol: 100px, 77pt, 20em, .5ex yoki 50%)."
 "The value is not within the specified range.","Qiymat belgilangan oraliqda emas."
 "Please use letters only (a-z or A-Z) in this field.","Iltimos, ushbu sohada faqat harflardan foydalaning (a-z yoki A-Z)."
-"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Iltimos, ushbu maydonda faqat harflar (a-z), raqamlar (0-9) yoki pastki chiziq (_) dan foydalaning va birinchi belgi bir harf bo'lishi kerak."
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Iltimos, ushbu maydonda faqat harflardan foydalaning (a-z yoki A-Z) yoki raqamlar (0-9). Bo'sh joylar yoki boshqa belgilarga ruxsat berilmaydi."
 "Please enter a valid date.","Iltimos, joriy kunni kiriting."
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Iltimos, haqiqiy URL kalitini kiriting (Misol: ""example-page"", ""example-page.html"" yoki ""ikkinchi darajali /example-page"")."
@@ -1449,15 +1214,10 @@ Account,"Boshqaruv paneli"
 "Please enter issue number or start date for switch/solo card type.","Iltimos, kartichkani tasdiqlash uchun uning amal qilish muddatini kiriting."
 "Please enter positive number in this field.","Iltimos, ushbu maydonga ijobiy raqamni kiriting."
 "Please enter a valid value, ex: 10,20,30","Iltimos tegishli qiymatni kiriting, masalan: 10,20,30"
-"Please enter a value less than or equal to %s.","Iltimos, %s dan kam yoki teng qiymatni kiriting."
-"Please enter a value greater than or equal to %s.","Iltimos, %s dan katta yoki teng qiymatni kiriting."
-"Please wait...","Iltimos kuting..."
+Other,Boshqa
 "Quick Checkout","Tez to'lov"
 "Store alternative addresses","Do'konning muqobil manzili"
 "For shipping to multiple family members and friends","Ko'p oila a'zolariga va do'stlariga jo'natish uchun"
-"<a href=%url_about_us>About Us</a>","<a href=%url_about_us>Biz haqimizda</a>"
-"<a href=url_customer_service>Customer Service</a>","<a href=url_customer_service>Mijozlarga hizmat</a>"
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Ish vaqti::<br /><span class=""no-link"">%store_hours</span>."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Agar buyurtma bo'yicha savollaringiz bo'lsa, bizni elektron pochtamizga yuboring <a href=""mailto:%store_email"">%store_email</a>."
 "Backup options","Zaxira imkoniyatlari"
 Warning,Ogohlantirish
@@ -1467,12 +1227,14 @@ Warning,Ogohlantirish
 "Please select one of each ratings above.","Yuqoridagi reytinglardan birini tanlang."
 "Please specify Url.","Iltimos, Url manzilini ko'rsating."
 "Method %s does not exist on jQuery.decorate","%s usuli jQuery.decorate da mavjud emas"
-"All ","Barchasi "
+"Please wait...","Iltimos kuting..."
 Translate,"Tarjima qiling"
 "Please remove invalid characters: {0}.","Noto'g'ri belgilarni o'chirib tashlang: {0}."
 "Please select one of the options above.","Iltimos, yuqoridagi variantlardan birini tanlang."
 "Please select a file.","Iltimos, faylni tanlang."
 "Please select one of the options.","Iltimos, variantlardan birini tanlang."
+"Please enter a value less than or equal to %s.","Iltimos, %s dan kam yoki teng qiymatni kiriting."
+"Please enter a value greater than or equal to %s.","Iltimos, %s dan katta yoki teng qiymatni kiriting."
 "Card type does not match credit card number.","Karta turi kredit karta raqamiga mos kelmadi."
 "Credit card number does not match credit card type.","Kredit karta raqami kredit kartasi turiga mos kelmadi."
 "Incorrect credit card expiration date.","Kredit kartasining amal qilish muddati noto'g'ri."
@@ -1497,4 +1259,3 @@ Translate,"Tarjima qiling"
 "Please enter a valid year (1900-%1).","Iltimos, joriy yil kiriting (1900-%1)."
 "Please enter a valid day (1-%1).","Iltimos, joriy kunni kiriting (1-%1)."
 "Please enter a date from the past.","Iltimos, o'tgan vaqtni kiriting."
-"Admin is a required field in the each row.","Administrator uchun har bir qator majburiy."
